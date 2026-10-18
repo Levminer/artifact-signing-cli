@@ -80,7 +80,7 @@ checksum = "330a5ed07fa54e4702c9d6c4174f74427fc0ef6e214bbd677ae50a5099946470"
 
 [[package]]
 name = "artifact-signing-cli"
-version = "0.11.0"
+version = "0.12.0"
 dependencies = [
  "clap",
  "dialoguer",
