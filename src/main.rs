@@ -169,7 +169,7 @@ async fn run(args: Args) -> Result<(), String> {
         let archive = config_dir.join(pkg_version);
         let target_dir = config_dir.join("lib");
 
-        zip_extract(&archive, &target_dir)
+        zip_extract::zip_extract(&archive, &target_dir)
             .map_err(|err| format!("signing client can't be unzipped: {:?}", err))?;
     }
 
