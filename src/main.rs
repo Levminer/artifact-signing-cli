@@ -153,7 +153,7 @@ async fn run(args: Args) -> Result<(), String> {
 
     // Download and extract lib
     if !lib_path.exists() {
-        let pkg_version = "1.0.128";
+        let pkg_version = "1.0.146";
 
         let link = format!(
             "https://www.nuget.org/api/v2/package/Microsoft.ArtifactSigning.Client/{}",
